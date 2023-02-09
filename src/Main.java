@@ -6,7 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
-        //task7();
+        task7();
 
     }
 
@@ -75,5 +75,18 @@ public class Main {
                 System.out.println("Вагон полностью забит");
             }
             }
+    public static void task7() {
+        System.out.println("Задача 7");
+        int one = 1;
+        int two = 9;
+        int three = 7;
+        if (one > two && one > three ) {
+            System.out.println("Число one больше");
+        } else if (two > one && two > three) {
+            System.out.println("Число two больше");
+        } else {
+            System.out.println("Число three больше");
+        }
+    }
 
         }
