@@ -77,9 +77,9 @@ public class Main {
             }
     public static void task7() {
         System.out.println("Задача 7");
-        int one = 1;
+        int one = 11;
         int two = 9;
-        int three = 7;
+        int three = 10;
         if (one > two && one > three ) {
             System.out.println("Число one больше");
         } else if (two > one && two > three) {
@@ -88,5 +88,4 @@ public class Main {
             System.out.println("Число three больше");
         }
     }
-
-        }
+}
